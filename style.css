@@ -1,0 +1,43 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin:0;
+}
+
+#app {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* flex-direction: row;  */
+  /* flex-direction: column;  */
+  /* align-items: center;
+  justify-content: space-evenly ; */
+  /* align-items: center;
+  justify-content: space-between; */
+  /* align-content: space-between; */
+
+}
+
+.box {
+   width: 150px;
+   height: 60px;
+   background: #f00;
+   margin: 5px;
+   /* flex-grow: 1; */
+   /* flex-shrink: 1; */
+   /* float: 1; */
+}
+
+.red {
+  order: 1;
+}
+.green {
+  background: #0f0;
+  order: 0;
+
+}
+
+.blue {
+  background: #00F;
+  order: 1;
+}
